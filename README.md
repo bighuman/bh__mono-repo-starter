@@ -1,4 +1,4 @@
-# Interviews Senior - Monorepo
+# Mono Repo Starter
 
 A TypeScript monorepo with three workspaces using Yarn workspaces.
 
