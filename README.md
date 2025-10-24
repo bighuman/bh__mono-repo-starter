@@ -64,7 +64,6 @@ yarn type-check
 
 The server provides the following endpoints:
 
-- `GET /api/people` - Returns a list of people with addresses
 - `GET /health` - Health check endpoint
 
 ## Architecture
@@ -72,5 +71,3 @@ The server provides the following endpoints:
 - **Shared types**: Defined in `packages/shared/src/types.ts`
 - **Server**: Express.js app with TypeScript, imports shared types
 - **Client**: Next.js app with TypeScript, imports shared types and fetches from server
-
-The client will fetch data from the server at `http://localhost:3001/api/people` and display it in a responsive grid layout.
